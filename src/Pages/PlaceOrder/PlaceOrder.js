@@ -24,6 +24,7 @@ const PlaceOrder = () => {
 
   // handle hook form
   const { register, handleSubmit, reset } = useForm();
+
   const onSubmit = (data) => {
     const tourName = serDetails?.name;
     const tourImg = serDetails?.image;

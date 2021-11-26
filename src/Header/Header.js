@@ -58,11 +58,11 @@ const Header = () => {
 
               {user?.email ? (
                 <div>
-                  <Button onClick={logOut} variant="light">
+                  <Button onClick={logOut} variant="light ">
                     Logout
                   </Button>
                   <Navbar.Text className="ms-2">
-                    Signed in as:{" "}
+                    Signed in as:
                     <span className="text-light fw-bold">
                       {user?.displayName}
                     </span>
